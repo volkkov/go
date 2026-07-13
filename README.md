@@ -14,7 +14,7 @@ go run hello.go
 \`\`\`
 
 ## Project Structure
-This repository contains several utility packages intended to be called from the main executable:
+This repository contains several helper files in the root `main` package, plus an internal worker package used for concurrency:
 * `stringkit.go`: Helpers for string formatting.
 * `mathutils.go`: Functions for calculating sums and averages.
 * `internal/worker/pool.go`: A bounded goroutine pool for concurrent task execution.
