@@ -1,6 +1,6 @@
 # Technical Deep Dive
 
-This document outlines the internal architecture and utility functions available in this repository. 
+This document outlines the internal architecture and utility functions available in this repository.
 
 ## Concurrency Architecture
 The project includes a custom worker pool pattern located in the `internal/worker` package.
@@ -8,7 +8,7 @@ The project includes a custom worker pool pattern located in the `internal/worke
 * Tasks are enqueued via the `Submit` method, which safely blocks if the queue reaches capacity.
 * A `Shutdown` method is provided to wait for running tasks to complete cleanly.
 
-## Utility Libraries
+## Utility Helpers (root package main)
 
 ### String Utilities (`stringkit.go`)
 Provides basic text manipulation functions:

@@ -19,4 +19,4 @@ This repository contains several utility packages intended to be called from the
 * `mathutils.go`: Functions for calculating sums and averages.
 * `internal/worker/pool.go`: A bounded goroutine pool for concurrent task execution.
 
-For a detailed technical breakdown, please refer to `docs/deep-dive.md`.
+For a detailed technical breakdown, please refer to [docs/deep-dive.md](docs/deep-dive.md)
